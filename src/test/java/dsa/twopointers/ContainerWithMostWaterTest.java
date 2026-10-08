@@ -17,7 +17,7 @@ class ContainerWithMostWaterTest {
     }
 
     @Test
-    void decreasingHeightsPreferWidth() {
-        assertEquals(6, ContainerWithMostWater.maxArea(new int[] {4, 3, 2, 1, 4}));
+    void equalEndsUseFullWidth() {
+        assertEquals(16, ContainerWithMostWater.maxArea(new int[] {4, 3, 2, 1, 4}));
     }
 }
